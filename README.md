@@ -15,4 +15,4 @@ yarn
 - [concurrently](https://www.npmjs.com/package/concurrently)
 - [wait-on](https://www.npmjs.com/package/wait-on)
 - [cross-env](https://www.npmjs.com/package/cross-env)
-- [electron-is-dev]()
+- [electron-is-dev](https://www.npmjs.com/package/electron-is-dev)
