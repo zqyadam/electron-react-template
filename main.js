@@ -3,7 +3,6 @@ const isDev = require("electron-is-dev");
 
 let mainWindow;
 const path = require("path");
-const os = require("os");
 
 app.on("ready", () => {
   // add React Developer Tools
