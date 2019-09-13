@@ -10,6 +10,11 @@ cd electron-react-template
 yarn
 ```
 
+## 使用
+```bash
+yarn dev
+```
+
 ## 依赖包
 
 - [concurrently](https://www.npmjs.com/package/concurrently)
