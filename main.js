@@ -2,8 +2,12 @@ const { app, BrowserWindow } = require("electron");
 const isDev = require("electron-is-dev");
 
 let mainWindow;
+const path = require("path");
+const os = require("os");
 
 app.on("ready", () => {
+  // add React Developer Tools
+  BrowserWindow.addDevToolsExtension(path.join(__dirname, "/plugin/4.0.6_0"));
   mainWindow = new BrowserWindow({
     width: 1440,
     height: 768,
