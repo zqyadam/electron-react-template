@@ -21,3 +21,6 @@ yarn dev
 - [wait-on](https://www.npmjs.com/package/wait-on)
 - [cross-env](https://www.npmjs.com/package/cross-env)
 - [electron-is-dev](https://www.npmjs.com/package/electron-is-dev)
+
+## 注意事项
+在`render process`中使用`window.require`代替`require`引入`nodejs`模块
